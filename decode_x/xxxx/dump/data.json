@@ -1,0 +1,404 @@
+{
+    "utts": {
+        "A01M0110_0201809_0205292": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:25",
+                    "name": "input1",
+                    "shape": [
+                        346,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0201809_0205292"
+        },
+        "A01M0110_0206400_0207332": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:29453",
+                    "name": "input1",
+                    "shape": [
+                        91,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0206400_0207332"
+        },
+        "A01M0110_0208325_0212970": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:37716",
+                    "name": "input1",
+                    "shape": [
+                        463,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0208325_0212970"
+        },
+        "A01M0110_0224394_0228383": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:76855",
+                    "name": "input1",
+                    "shape": [
+                        397,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0224394_0228383"
+        },
+        "A01M0110_0230177_0232403": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:110516",
+                    "name": "input1",
+                    "shape": [
+                        221,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0230177_0232403"
+        },
+        "A01M0110_0232978_0235000": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:129569",
+                    "name": "input1",
+                    "shape": [
+                        200,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0232978_0235000"
+        },
+        "A01M0110_0235564_0242555": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:146879",
+                    "name": "input1",
+                    "shape": [
+                        697,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0235564_0242555"
+        },
+        "A01M0110_0243648_0247512": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark:205440",
+                    "name": "input1",
+                    "shape": [
+                        384,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0243648_0247512"
+        },
+        "A01M0110_0259610_0262077": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:25",
+                    "name": "input1",
+                    "shape": [
+                        245,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0259610_0262077"
+        },
+        "A01M0110_0265126_0269687": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:21070",
+                    "name": "input1",
+                    "shape": [
+                        454,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0265126_0269687"
+        },
+        "A01M0110_0270811_0276710": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:59462",
+                    "name": "input1",
+                    "shape": [
+                        588,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0270811_0276710"
+        },
+        "A01M0110_0278123_0280363": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:108976",
+                    "name": "input1",
+                    "shape": [
+                        222,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0278123_0280363"
+        },
+        "A01M0110_0281306_0285821": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:128112",
+                    "name": "input1",
+                    "shape": [
+                        450,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0281306_0285821"
+        },
+        "A01M0110_0287569_0293937": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:166172",
+                    "name": "input1",
+                    "shape": [
+                        635,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0287569_0293937"
+        },
+        "A01M0110_0294852_0295746": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:219587",
+                    "name": "input1",
+                    "shape": [
+                        87,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0294852_0295746"
+        },
+        "A01M0110_0296441_0299709": {
+            "input": [
+                {
+                    "feat": "/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.2.ark:227518",
+                    "name": "input1",
+                    "shape": [
+                        325,
+                        83
+                    ]
+                }
+            ],
+            "output": [
+                {
+                    "name": "target1",
+                    "shape": [
+                        1,
+                        3
+                    ],
+                    "text": "X",
+                    "token": "X",
+                    "tokenid": "1"
+                }
+            ],
+            "utt2spk": "A01M0110_0296441_0299709"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+# apply-cmvn --norm-vars=true models/cmvn.ark scp:decode_x/xxxx/log_dir/feats.1.scp ark:- | copy-feats.py --verbose 0 --out-filetype mat --compress=true --compression-method=2 --write-num-frames=ark,t:/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/utt2num_frames.1 ark:- ark,scp:/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.ark,/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/dump/feats.1.scp 
+# Started at Mon Oct  5 17:33:45 JST 2020
+#
+apply-cmvn --norm-vars=true models/cmvn.ark scp:decode_x/xxxx/log_dir/feats.1.scp ark:- 
+LOG (apply-cmvn[5.5.762~1-0062]:main():apply-cmvn.cc:159) Applied cepstral mean and variance normalization to 8 utterances, errors on 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Mon Oct  5 17:33:46 JST 2020, elapsed time 1 seconds

@@ -1,0 +1,23 @@
+# paste-feats --length-tolerance=2 "ark:compute-fbank-feats  --write-utt2dur=ark,t:decode_x/xxxx/log_dir/utt2dur.1    --verbose=2 --config=conf/fbank.conf scp,p:decode_x/xxxx/log_dir/wav_data.1.scp ark:- |" "ark,s,cs:compute-kaldi-pitch-feats --verbose=2       --config=conf/pitch.conf scp,p:decode_x/xxxx/log_dir/wav_data.1.scp ark:- |     process-kaldi-pitch-feats  ark:- ark:- |" ark:- | copy-feats --compress=true --write-num-frames=ark,t:decode_x/xxxx/log_dir/utt2num_frames.1 ark:- ark,scp:/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/fbank/raw_fbank_pitch_data.1.ark,/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/fbank/raw_fbank_pitch_data.1.scp 
+# Started at Mon Oct  5 17:33:45 JST 2020
+#
+paste-feats --length-tolerance=2 'ark:compute-fbank-feats  --write-utt2dur=ark,t:decode_x/xxxx/log_dir/utt2dur.1    --verbose=2 --config=conf/fbank.conf scp,p:decode_x/xxxx/log_dir/wav_data.1.scp ark:- |' 'ark,s,cs:compute-kaldi-pitch-feats --verbose=2       --config=conf/pitch.conf scp,p:decode_x/xxxx/log_dir/wav_data.1.scp ark:- |     process-kaldi-pitch-feats  ark:- ark:- |' ark:- 
+copy-feats --compress=true --write-num-frames=ark,t:decode_x/xxxx/log_dir/utt2num_frames.1 ark:- ark,scp:/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/fbank/raw_fbank_pitch_data.1.ark,/home/acc12416pz/espnet/egs/csj/demo/decode_x/xxxx/fbank/raw_fbank_pitch_data.1.scp 
+compute-fbank-feats --write-utt2dur=ark,t:decode_x/xxxx/log_dir/utt2dur.1 --verbose=2 --config=conf/fbank.conf scp,p:decode_x/xxxx/log_dir/wav_data.1.scp ark:- 
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0201809_0205292
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0206400_0207332
+process-kaldi-pitch-feats ark:- ark:- 
+compute-kaldi-pitch-feats --verbose=2 --config=conf/pitch.conf scp,p:decode_x/xxxx/log_dir/wav_data.1.scp ark:- 
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0208325_0212970
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0224394_0228383
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0230177_0232403
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0232978_0235000
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0235564_0242555
+LOG (compute-kaldi-pitch-feats[5.5.762~1-0062]:main():compute-kaldi-pitch-feats.cc:110) Done 8 utterances, 0 with errors.
+LOG (process-kaldi-pitch-feats[5.5.762~1-0062]:main():process-kaldi-pitch-feats.cc:85) Post-processed pitch for 8 utterances.
+VLOG[2] (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:182) Processed features for key A01M0110_0243648_0247512
+LOG (compute-fbank-feats[5.5.762~1-0062]:main():compute-fbank-feats.cc:185)  Done 8 out of 8 utterances.
+LOG (paste-feats[5.5.762~1-0062]:main():paste-feats.cc:158) Done 8 utts, errors on 0
+LOG (copy-feats[5.5.762~1-0062]:main():copy-feats.cc:143) Copied 8 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Mon Oct  5 17:33:45 JST 2020, elapsed time 0 seconds
